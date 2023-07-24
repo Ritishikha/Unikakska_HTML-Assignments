@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallary</title>
+    <style>
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      img {
+        width: 200px;
+        height: 300px;
+        flex: 30%;
+        padding: 1rem;
+      }
+
+      @media (max-width: 500px) {
+        img {
+          flex: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Gallary</h1>
+    <div class="row">
+      <img src="Flower Image.jpg" alt="flowers" />
+    <img src="Nature Image.jpg" alt="nature" />
+      <img src="Expressionism Painting.jpg" alt="Expressionism Painting" />
+      <img src="Flower Image 3.jpg" alt="flowers" />
+      <img src="Clay Paintingg.jpg" alt="Clay Painting" />
+      <img src="Flower Image 2" alt="flower" />
+      <img src="Cat Image.jpg" alt="animal" />
+      <img src="Cat 2" alt="animal" />
+
+    </div>
+  </body>
+</html>
